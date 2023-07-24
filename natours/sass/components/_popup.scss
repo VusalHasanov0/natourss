@@ -10,6 +10,32 @@
     visibility: hidden;
     transition: all .3s;
 
+
+
+    @include respond(tab-port) {
+
+
+        .heading-secondary{
+            font-size: 2.5rem!important;
+        }
+        .heading-tertiary {
+            font-size: 1.5rem!important;
+        }
+    }
+
+    @include respond(phone) {
+        .heading-secondary {
+            font-size: 1.5rem!important;
+        }
+
+        .btn {
+            padding: 1rem 2rem;
+        }
+    }
+
+
+    
+
     
 
     &__content {
@@ -42,6 +68,21 @@
     &__img {
         display: block;
         width: 100%;
+
+       
+
+        @include respond(tab-port) {
+            height: 320px;
+        }
+
+        @include respond(tab-land) {
+            height: 370px;
+        }
+
+        @include respond(phone) {
+            width: 120%;
+            height: 317px;
+        }
     }
 
     &__text {
@@ -55,6 +96,15 @@
         -webkit-hyphens: auto;
         -ms-hyphens: auto;
         hyphens: auto;
+
+        @include respond(tab-port) {
+            column-count: 1;
+
+        }
+
+        @include respond(phone) {
+            font-size: 1rem;
+        }
     }
 
     &:target {
