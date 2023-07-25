@@ -1,0 +1,509 @@
+
+.stage1 {
+  background-color:#102330 ;
+}
+
+.button {
+  border-radius:12px ;
+}
+
+
+
+.stage1 .nav-item a {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.stage1 .nav-item a:hover {
+  color:#69bae2 ;
+}
+
+
+.logo1 {
+  width: 165px;
+}
+
+.stage2 {
+  background: linear-gradient(0deg, rgba(16, 35, 48, 0.33), rgba(16, 35, 48, 0.33)), url(careers-img/stage2-foto.jpg) no-repeat center center;
+  background-size: cover;
+  height: 260px;
+}
+
+.stage2-word1 {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #CDCDCD;
+
+}
+
+.stage2-word2 {
+  font-family: 'Cambria';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 45px;
+  color: #FFFFFF;
+}
+
+.stage2-word3 {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #CDCDCD;
+  width: 400px;
+}
+
+.stage2-word {
+  padding-top: 50px;
+}
+
+.stage3 {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.stage3-h4 {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #102330;
+}
+
+.stage3-h5 {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: justify;
+  color: #909090;
+  margin-bottom: 50px;
+}
+
+.stage3-plan2 {
+  background: url(careers-img/stage3-foto1.jpg) ;
+  height: 400px;
+  padding: 0!important;
+
+}
+
+.stage3-plan-h4 {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: justify;
+  color: #909090;
+  margin-bottom: 20px;
+}
+
+.stage3-plan3 {
+  margin-top: 60px;
+}
+
+.stage4 {
+  margin-bottom: 100px;
+}
+
+.stage6-class1 {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 104.69%;
+  color: #fff;
+  background-color: #102330;
+  display: inline-block;
+  padding: 18px;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.stage6-class2 {
+  border-radius: 0px 10px 10px 0px;
+  width: calc(100% - 165px);
+  position: relative;
+  right: 3px;
+}
+.stage6-class3 {
+  background-color: #F1F1F1;
+  color: #303640;
+}
+
+.stage5 .buttons {
+  text-align: center;
+} 
+
+.stage5 .button {
+  font-size: 15px;
+  border-radius: 30px;
+  padding-top: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 6px;
+  background: #909090;
+  margin-right: 6px;
+}
+
+.stage5 {
+  margin-bottom: 100px;
+}
+
+.stage7 {
+  background: #102330;
+}
+
+.stage7-plan1 {
+  padding-top: 70px;
+}
+
+
+
+.stage7-h5 {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  color: #FFFFFF;
+}
+
+.stage7-h6 {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #FFFFFF;
+}
+
+.stage7-input {
+  background: #FFFFFF;
+  border-radius: 11.1487px;
+  padding: 10px 10px 10px 10px;
+  width: 420px;
+}
+
+.stage7-button {
+ top: -2px;
+ background: none;
+ border: 0;
+ position: relative;
+ right: 35px;
+ color: #102330;
+}
+
+.stage7-plan2 {
+  margin-top: 70px;
+}
+
+.stage7-plan2-h5 {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #FFFFFF;
+}
+
+.stage7-plan2-h6 {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #919191;
+}
+
+.stage7-line {
+  margin-top: 15px;
+  padding-left: 20px;
+  border-left: 2px solid #777;
+}
+
+.stage7-plan2 .button {
+  font-size: 12px;
+  border-radius: 30px;
+  padding-top: 4px;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-bottom: 4px;
+  background: #909090;
+  margin-right: 6px;
+}
+
+.stage7-plan3 {
+  margin-top: 70px;
+  padding-bottom: 30px;
+}
+
+.stage7-plan3-h6 {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #6C6C6C;
+  margin-top: 20px;
+}
+
+
+@media (max-width: 1240px) {
+  .stage1 .nav-item a {
+    font-size: 14px;
+  }
+
+  .stage6-class2 h5 {
+    font-size: 18px;
+  }
+  .stage6-class1 h5 {
+    font-size: 18px;
+  }
+
+}
+
+
+@media (max-width: 992px) {
+  .stage1 .nav-item a {
+    font-size: 9px;
+  }
+  .logo1 {
+    width: 140px;
+  }
+
+  .stage6-class2 h5 {
+    font-size: 19px;
+  }
+  .stage1 .button {
+    font-size: 8px;
+  }
+
+  .stage1 .button i {
+    font-size: 12px;
+  }
+
+  
+}
+
+
+@media (min-width: 768px) {
+  .mobile-menu {
+    visibility: hidden;
+    height: 0;
+  }
+
+  .stage2 .logo1 {
+    visibility: hidden;
+    height: 0;
+    width: 0;
+  }
+  .stage2-word {
+    padding: 0px;
+  }
+
+  .stage6-class1 h5 {
+    font-size: 14px;
+  }
+
+  .stage6-class2 h5 {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 576px) {
+
+
+ .stage2-button-mobile {
+    visibility: hidden;
+    height: 0;
+  }
+
+}
+
+
+
+@media (min-width: 576px) and  (max-width: 768px) {
+  .mobile-menu {
+    visibility: hidden;
+    height: 0px;
+    width: 0;
+  }
+
+
+  .stage2-word {
+    padding: 0;
+  }
+  .stage1 .logo1 {
+    width: 100px;
+  }
+
+  .stage6-class1 h5 {
+    font-size: 9px!important;
+  }
+
+  .stage1 .nav-item a {
+    font-size: 5px;
+  }
+
+  .stage1 .button i {
+    font-size: 7px;
+  }
+
+  .stage1 .button {
+    font-size: 3px;
+  }
+
+
+
+
+
+
+
+  
+
+  .stage2 .logo1 {
+
+   height: 0;
+ }
+
+ .stage6-class2 h5 {
+  font-size: 12px;
+}
+.stage6-class1 h5 {
+  font-size: 12px;
+}
+}
+
+
+
+
+
+
+@media (max-width: 576px) {
+
+  .tablet-menu {
+    visibility: hidden;
+    height: 0;
+  }
+
+  .mobile-menu {}
+
+  
+
+
+
+  .stage2-button-mobile {
+    position: absolute!important;
+    left: 20px!important;
+    margin-top: 30px;
+  }
+
+  .stage2-button-mobile span {
+    font-size: 6px;
+    border-radius: 30px;
+  }
+  .stage2-button-mobile i {
+    font-size: 9px;
+  }
+  .web {
+    visibility: hidden;
+    height: 0px;
+  }
+  .stage7-input {
+    width: 300px;
+  }
+
+  .stage6-class2 h5 {
+    font-size: 6px;
+    margin: 0;
+  }
+  .stage6-class1 h5 {
+    font-size: 6px;
+    margin: 0;
+  }
+
+  .stage6-class2 {
+
+    width: calc(100% - 90px);
+  }
+
+
+  .menu-logo {
+    font-size: 15px;
+    color: white;
+  }
+
+  .stage2 a {
+    left: 36%;
+    position: relative;
+  }
+  .stage2 .logo1 {
+    width: 150px;
+  }
+
+  .stage2-word {
+    padding: 0;
+  }
+  .stage2-word1 {
+    font-size: 12px;
+  } 
+
+  .stage2-word2 {
+    font-size: 26px;
+  } 
+  .stage2-word3 {
+    font-size: 10px;
+  } 
+
+  .stage3-h5 {
+    font-size: 12px;
+  } 
+  .stage3-h4 {
+    font-size: 17px;
+  } 
+
+
+  .stage3-plan-h4 {
+    font-size: 12px;
+  }
+
+  .stage5 .button {
+    font-size: 12px;
+  }
+
+
+  .stage7-h5 {
+    font-size: 17px;
+  }
+
+  .stage7-h6 {
+    font-size: 13px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

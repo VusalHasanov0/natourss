@@ -1,0 +1,531 @@
+@import url( "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" );
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:wght@400;700&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+html {
+    box-sizing: border-box;
+    
+
+}
+body {
+    width:100%
+}
+.header {
+    padding: 0 3%;
+
+}
+
+.header_item h1 {
+    position: relative;
+    top: -25px;
+    text-align: center;
+    font-size: 50px;
+    right: 44px;
+}
+.fa {
+    font-size: 15px;
+    float: left;
+    color: black;
+    margin: 15px;
+
+}
+.title {
+    color: black;
+    text-decoration: none ;
+    display: inline-block;
+    position: relative;
+    top: 23px;
+    left: 147px;
+}
+/* .title h1 {
+    display: inline-block;
+    position: absolute;
+    top: 50px;
+} */
+.language {
+    text-align: center;
+    margin-top: 10px;
+    letter-spacing: 0.03em
+}
+
+.language a{
+    text-decoration: none;
+    color: black;
+    padding: 7px 8px 6px;
+    font-size:9px;
+    
+}
+.language-ul li{
+    list-style-type: none;
+    display: inline-block;
+    font-weight: 700px;
+    font-family: nyt-franklin,helvetica,arial,sans-serif;
+    font-size: 10px;
+
+}
+
+.buttons {
+    position: absolute;
+    left: 30px;
+    top: 0;
+}
+.button2 {
+    text-align: right;
+    margin-top: 10px;
+    padding: 10px;
+    display: inline-block;
+}
+.button2_item  {
+    text-decoration: none;
+    color: #fff;
+}
+.button2 button {
+    line-height: 11px;
+    background-color: rgb(86, 123, 149);
+    border-radius: 3px;
+    position: absolute;
+    right: 120px;
+    top: 5px;
+    border: 1px solid rgb(50, 104, 145);
+    padding: 8px 12px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    font-size: 11px;
+    margin-right: 7px;
+    text-transform: uppercase;
+    transition: all 0.6s ease 0s;
+    cursor: pointer;
+}
+.button2 button:hover {
+    background-color:rgb(50, 104, 145) ;
+    transition: 1s;
+}
+.button3 {
+    text-align: right;
+    margin-top: 10px;
+    padding: 10px;
+    display: inline-block;
+}
+.button3_item  {
+    text-decoration: none;
+    color: #fff;
+}
+.button3 button {
+    line-height: 11px;
+    background-color: rgb(86, 123, 149);
+    border-radius: 3px;
+    position: absolute;
+    right: 40px;
+    cursor: pointer;
+    top: 5px;
+    border: 1px solid rgb(50, 104, 145);
+    padding: 8px 12px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    font-size: 11px;
+    margin-right: 7px;
+    text-transform: uppercase;
+    transition: all 0.6s ease 0s;
+}
+
+.button3 button:hover {
+    background-color:rgb(50, 104, 145) ;
+    transition:  0.5s;
+}
+
+.calendar {
+    display: inline-block;
+}
+.calendar h2 {
+    font-weight: bold;
+    font-size: 12px;
+    margin-bottom: 5px;
+    position: relative;
+    margin: 15px;
+    top: -19px;
+    right: 67px;
+
+}
+.calendar h3 {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    position: relative;
+    top: -30px;
+    margin: 15px;
+    right: 67px;
+    opacity: 0.6;
+}
+
+.calendar a {
+    text-decoration: none;
+    color: black;
+}
+.categories .list-item a {
+    text-decoration: none;
+    color: black;
+}
+.categories {
+    border-top: 1px solid #ebebeb;
+    border-bottom: 1px solid #000;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    position: relative;
+    top: -22px;
+
+}
+.categories::after {
+    border-bottom: 1px solid #000;
+}
+.list {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    text-align: center;
+    position: relative;
+    left: 17px;
+    padding: 5px 0 4px;
+    font-size: 10px;
+    margin: 0 58px;
+    align-items: center;
+}
+.categories::after {
+    content: '';
+    border-bottom: 1px double #000;
+    display: block;
+}
+.list .list-item {
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    font-weight: 500;
+}
+.list-item1 {
+    display: inline-block;
+    position: relative;
+    padding-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    font-weight: 500;
+}
+.list-item1::before {
+    content: '';
+    height: 20px;
+    border-left: 1px solid #ebebeb;
+    left: 6px;
+    top: 2px;
+    position: absolute;
+}
+.list-item1 a {
+    text-decoration: none;
+    color: black;
+}
+.list .list-item a{
+    padding: 4px;
+    display: inline-block;
+
+}
+.weather-icon1 span {
+    display: inline-block;
+    position: absolute;
+    right: 95px;
+    top: 58px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.weather-icon2 {
+    display: inline-block;
+    position: absolute;
+    right: 67px;
+    top: 61px;
+    font-size: 11px;
+}
+.weather-icon3 {
+    display: inline-block;
+    position: absolute;
+    right: 50px;
+    top: 61px;
+    font-size: 11px;
+}
+
+.image {
+    display: inline-block;
+    position: relative;
+    left: 145px;
+    top: -3px;
+}
+
+.image a {
+    display: inline-block;
+    
+}
+.image img {
+    width: 88%;
+}
+
+.live-icons1 {
+    color: red;
+    font-weight: bold;
+    display: inline-block;
+    position: absolute;
+    top: 170px;
+    font-size: 13px;
+}
+.live-icons2 {
+    color: red;
+    display: inline-block;
+    position: absolute;
+    top: 170px;
+    left: 100px;
+    font-size: 13px;
+}
+.main a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    
+}
+.main {
+    font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding: 0 3%;
+}
+.main-1 {
+    position: relative;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+.main-2{
+    position: relative;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+.main-3 {
+    position: relative;
+    font-weight: bold; 
+}
+.container {
+    width: 69%;
+    display: inline-block;
+    margin-bottom:  20px; ;
+}
+
+.container1 {
+    height: 352px;
+    width: 300px;
+    display: inline-block;
+}
+.container2 {
+    width: 300px;
+    height: 80px;
+    display: inline-block;
+    margin-bottom:10px ;
+}
+.container3 {
+    display: inline-block;
+    position: absolute;
+    margin-left: 6px;
+}
+.container3::before {
+    content: '';
+    height: 100%;
+    position: absolute;
+    border-left: 1px solid #c7c7c7;
+}
+
+.plan-ul {
+    font-family: nyt-imperial;
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 0.9rem;
+    letter-spacing: 0.1px;
+    opacity: 0.7;
+}
+.plan::after {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    clear: both;
+    content: '';
+    border-bottom: 1px solid #c7c7c7;
+}
+.ul-li1 a {
+    text-decoration: none;
+    color: black;
+}
+.ul-li2 a {
+    text-decoration: none;
+    color: black;
+}
+
+.ul-li2 {
+    margin-top: 10px;
+}
+
+.photo {
+    display: inline-block;
+    position: absolute;
+    margin-left: 15px;
+}
+.photo img {
+    height: 336px;
+}
+
+.photo img {
+    position: relative;
+
+}
+.update {
+    position: relative;
+    display: inline-block;
+}
+
+
+
+
+.update a {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    font-weight: 700;
+}
+.update-1 {
+    background-color: #000;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+    padding: 2px;
+    font-size: 10px;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+
+}
+.photo-word {
+    position: relative;
+    left: 18px;
+    opacity: 0.6;
+}
+
+.photo-word a {
+    text-decoration: none;
+    color: black;
+
+}
+.word1 {
+    font-size: 0.6275rem;
+    
+}
+.word2 {
+    font-size: 0.56rem;
+    position: relative;
+    left: 313px;
+    top: -20px;
+    
+}
+
+.plan-2-item {
+    position: relative;
+
+}
+.plan-2-item a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.plan-2-item1 {
+    position: relative;
+
+}
+.plan-2-item1 a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 10px;
+    opacity: 0.6;
+}
+.photo1 {
+    display: inline-block;
+    position: relative;
+    margin-left: 15px;
+}
+.photo1 img{
+    height: 209px;
+
+}
+.photo-word1 {
+position: relative;
+    top: -11px;
+    left: 90px;
+    display: inline-block;
+}
+.photo-word1 a {
+    text-decoration: none;
+    color: black;
+    font-size: 11px;
+    opacity: 0.6;
+}
+.plan-3-item1{
+    position: relative;
+    top: 10px;
+    left: 21px;
+    display: inline-block;
+    width: 80%;
+    font-size: 19px;
+    font-weight: 700;
+}
+.plan-3-item1 a {
+    text-decoration: none;
+    color: black;
+    font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
+}
+.plan-3-item2 {
+    position: relative;
+    top: 22px;
+    left: 21px;
+    width: 84%;
+    font-size: 15px;
+}
+.plan-3-item2 a {
+    text-decoration: none;
+    color: black;
+}
+.plan-3-item3 {
+    position: relative;
+    top: 17px;
+    left: 21px;
+    font-size: 10px;
+    display: inline-block;
+}
+.plan-3-item3 a {
+    text-decoration: none;
+    color: black;
+    opacity: 0.6;
+}
+.categories1 {
+    background: #fff;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    box-shadow:0 0 5px 1px rgb(0 , 0, 0 / 28%) ;
+    z-index: 100000
+}
+.categories2 {
+    margin: 0 auto;
+    padding: 0 3%;
+    max-width: 1200px;
+    white-space: nowrap;
+}

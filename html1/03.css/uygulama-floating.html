@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header,footer {
+            background-color: #8267BE;
+            color: #FFBD35;
+            padding: 15px;
+        }
+        .menu {
+            display: inline-block;
+            height: 200px;
+            color: #fff;
+            width: 30%;
+            vertical-align: top;
+        }
+        .content {
+            float: right;
+            width: calc(70% - 60px);
+            
+        }
+
+
+        .menu ul {
+            list-style-type: none;
+
+        }
+        .menu li {
+            background-color: #502064;
+            padding: 8px;
+            margin-bottom: 8px;
+        }
+        .menu li:hover {
+            background-color: #8267BE;
+            color: #502064;
+            cursor: pointer;
+        }
+        .clearfix::after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+        .col {
+            padding: 5px;
+        }
+        h2{
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>Header</h1>
+    </header>
+
+    <main class="main" class="clearfix">
+        <div class="menu col">
+            <ul>
+                <li>Html</li>
+                <li>Css</li>
+                <li>JavaScript</li>
+            </ul>
+        </div>
+        <div class="content col">
+            <h2>Komple Web Geliştirme Eğitimi</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam, beatae soluta nobis libero praesentium consequatur id aliquid repellat. Illum ad deserunt tenetur cum magnam quae consequuntur quaerat reprehenderit asperiores fugiat.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit harum in perferendis nam quos pariatur! Ratione facilis tempora suscipit inventore aut ea, laboriosam mollitia libero nulla, dolore natus! Facilis, odit?</p>
+        </div>
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer class="footer">
+        <h1>Footer</h1>
+    </footer>
+
+
+
+
+
+    
+</body>
+</html>

@@ -1,0 +1,96 @@
+nav {
+	background-color:black ;
+}
+.fa {
+	color: white;
+}
+
+
+
+.navbar .logo {
+	min-height:250px ;
+
+}
+
+.card-span {
+	font-size:15px;
+}
+
+
+.card-img-overlay {
+	position: absolute;
+	top: 80px;
+	left: 20px;
+}
+
+.card-img-overlay h1 {
+	font-size: 25px;
+}
+
+.ustalansol {
+	
+	padding: 0;
+	z-index: -999;
+}
+
+.ustalansag {
+	margin-left: -30px;
+	padding: 0;
+	z-index: -999;
+}
+
+
+.container-fluid {
+	margin-right: 0px;
+	margin-left: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.usthaberboyut {
+	height: 200px;
+}
+
+.usthaberboyut1 {
+	height: 280px;
+}
+
+
+.card-img-overlay1 {
+	position: absolute;
+	top: 180px;
+	left: 30px;
+}
+
+.card-img-overlay1 h1 {
+	font-size: 25px;
+}
+
+@media (max-width:576px) {
+	.card-img-overlay1 {
+	position: absolute;
+	top: 160px;
+	left: 30px;
+}
+
+.card-img-overlay {
+	position: absolute;
+	top: 80px;
+	left: 0px;
+}
+
+.ustalansag {
+	margin-left: 0px;
+
+}
+
+.card-img-overlay h1 {
+	font-size: 20px;
+}
+
+.cardaralik {
+	margin-bottom: 1px;
+}
+
+
+}

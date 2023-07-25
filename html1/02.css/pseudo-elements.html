@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p::first-line {
+            font-weight: bold;
+        }
+        p.about::first-line {
+            color: green;
+
+        }
+        ::selection {
+            color: green;
+        }
+        p::after {
+            content: '\261D';
+        }
+    </style>
+</head>
+<body>
+    <!-- Pseudo classes -->
+
+    <!-- Pseudo elements -->
+    <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem iure dolorem quis, sunt odio similique recusandae quod ad impedit culpa a reprehenderit? Aspernatur nam ad amet, repellat tenetur maxime cum.
+    </p>
+
+    <p class="About">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae expedita aspernatur necessitatibus voluptatum. Repellat debitis placeat quas quo reprehenderit, a voluptates soluta ab totam blanditiis mollitia cum explicabo. Soluta, explicabo!</p>
+</body>
+</html>

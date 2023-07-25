@@ -1,0 +1,79 @@
+.ustalan {
+	background-color: #405d9b;
+	min-height: 80px;
+}
+
+nav input {
+	padding: 0px !important;
+	border-radius: 0px !important;
+}
+
+.giris-button {
+	font-size: 13px;
+	font-family: arial;
+	background-color:#405d9b ;
+	cursor: pointer;
+}
+
+
+.nav-eposta {
+	position: absolute;
+	margin-top: -45px;
+	font-size: 13px;
+	color: white;
+}
+
+.nav-parola {
+	position: absolute;
+	margin-top: -45px;
+	margin-left:172px ;
+	font-size: 13px;
+	color: white;
+}
+
+.nav-unutdum {
+	position: absolute;
+	font-size: 13px;
+	color: white;
+	margin-top: 45px;
+	margin-left:172px ;
+}
+
+.nav-unutdum a {
+	color: #9cb4d0;
+
+}
+@media (max-width:576px) {
+	.nav-eposta {
+		position: static;
+		margin: 0px;
+		margin-bottom: 2px;
+	}
+
+	.nav-parola {
+		position: static;
+		margin: 0px;
+		margin-bottom: 2px;
+	}
+
+	.nav-unutdum {
+		position: absolute;
+		margin-top: 100px;
+		margin-left: 70px;
+	}
+
+	.giris-button {
+		margin-top: 5px;
+	}
+}
+
+.gradian {
+	background: linear-gradient(white, #d4d9e8);
+}
+
+.tarih {
+	padding: 0px;
+	width: 60px;
+	border-radius: 0px;
+
+}
